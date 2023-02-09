@@ -18,6 +18,11 @@ spring:
           search-paths:
             - SpringCloudStudy_config
       label: main
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
